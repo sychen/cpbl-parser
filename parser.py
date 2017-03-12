@@ -101,9 +101,18 @@ if __name__ == "__main__":
     # Target: completed games of Lamigo and EDA
 
     team_images = {
+        # Lamigo Monkeys: Agan -> La New -> Lamigo (A in Agan)
+        'Agan':         'http://cpbl-elta.cdn.hinet.net/phone/images/team/A01_logo_01.png',
         'Lamigo':       'http://cpbl-elta.cdn.hinet.net/phone/images/team/A02_logo_01.png',
+        # Fubon Guardians: Jungo -> Sinon -> EDA -> Fubon (B in Jungo Bears)
+        'Jungo':        'http://cpbl-elta.cdn.hinet.net/phone/images/team/B01_logo_01.png',
+        'Sinon':        'http://cpbl-elta.cdn.hinet.net/phone/images/team/B02_logo_01.png',
         'EDA':          'http://cpbl-elta.cdn.hinet.net/phone/images/team/B03_logo_01.png',
+        'Fubon':        'http://cpbl-elta.cdn.hinet.net/phone/images/team/B04_logo_01.png',
+        # Chinatrust Brothers: Elephants -> Brothers (E in Elephants)
+        'Elephants':    'http://cpbl-elta.cdn.hinet.net/phone/images/team/E01_logo_01.png',
         'Brothers':     'http://cpbl-elta.cdn.hinet.net/phone/images/team/E02_logo_01.png',
+        # Uni-Lions (L in Lions)
         'Uni-Lions':    'http://cpbl-elta.cdn.hinet.net/phone/images/team/L01_logo_01.png',
     }
 
@@ -136,9 +145,18 @@ if __name__ == "__main__":
 
     print 'Extract information from box pages...'
     image_to_teams = {
+        # Lamigo Monkeys: Agan -> La New -> Lamigo (A in Agan)
+        'http://cpbl-elta.cdn.hinet.net/pad/images/team/A01_logo_01.png': 'Agan',
         'http://cpbl-elta.cdn.hinet.net/pad/images/team/A02_logo_01.png': 'Lamigo',
+        # Fubon Guardians: Jungo -> Sinon -> EDA -> Fubon (B in Jungo Bears)
+        'http://cpbl-elta.cdn.hinet.net/pad/images/team/B01_logo_01.png': 'Jungo',
+        'http://cpbl-elta.cdn.hinet.net/pad/images/team/B02_logo_01.png': 'Sinon',
         'http://cpbl-elta.cdn.hinet.net/pad/images/team/B03_logo_01.png': 'EDA',
+        'http://cpbl-elta.cdn.hinet.net/pad/images/team/B04_logo_01.png': 'Fubon',
+        # Chinatrust Brothers: Elephants -> Brothers (E in Elephants)
+        'http://cpbl-elta.cdn.hinet.net/pad/images/team/E01_logo_01.png': 'Elephants',
         'http://cpbl-elta.cdn.hinet.net/pad/images/team/E02_logo_01.png': 'Brothers',
+        # Uni-Lions (L in Lions)
         'http://cpbl-elta.cdn.hinet.net/pad/images/team/L01_logo_01.png': 'Uni-Lions',
     }
 
